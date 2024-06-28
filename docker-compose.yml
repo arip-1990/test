@@ -1,0 +1,79 @@
+version: '3.9'
+services:
+  traefik:
+    image: traefik:2.10
+    command: --providers.docker=true --providers.docker.exposedByDefault=false --entryPoints.http.address=:80
+    ports:
+      - 80:80
+    networks:
+      - traefik-public
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+    labels:
+      - traefik.enable=true
+      - traefik.docker.network=traefik-public
+
+  api:
+    build:
+      context: docker
+      dockerfile: nginx/Dockerfile
+    volumes:
+      - .:/app
+      - uploads:/app/storage/app/public
+    networks:
+      - traefik-public
+      - default
+    labels:
+      - traefik.enable=true
+      - traefik.docker.network=traefik-public
+      - traefik.http.routers.api.rule=Host(`localhost`)
+      - traefik.http.routers.api.entryPoints=http,http_other
+      - traefik.http.services.api.loadBalancer.server.port=80
+
+  api-php-fpm:
+    build:
+      context: docker
+      dockerfile: php-fpm/Dockerfile
+    environment:
+      DB_CONNECTION: pgsql
+      DB_HOST: api-db
+      DB_DATABASE: app
+      DB_USERNAME: app
+      DB_PASSWORD: secret
+    volumes:
+      - .:/app
+      - uploads:/app/storage/app/public
+
+  api-php-cli:
+    build:
+      context: docker
+      dockerfile: php-cli/Dockerfile
+    environment:
+      DB_CONNECTION: pgsql
+      DB_HOST: api-db
+      DB_DATABASE: app
+      DB_USERNAME: app
+      DB_PASSWORD: secret
+    volumes:
+      - .:/app
+      - uploads:/app/storage/app/public
+
+  api-db:
+    image: postgres:16.3-alpine
+    environment:
+      POSTGRES_USER: app
+      POSTGRES_PASSWORD: secret
+      POSTGRES_DB: app
+    volumes:
+      - api-db:/var/lib/postgresql/data
+    ports:
+      - 5432:5432
+
+volumes:
+  api-db:
+  uploads:
+
+
+networks:
+  traefik-public:
+    name: traefik-public
