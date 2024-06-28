@@ -25,6 +25,16 @@ class Directory extends Model
 
     protected $fillable = ['name'];
 
+    public function getPath(): string
+    {
+        $path = $this->name;
+        while ($directory = $this->parent) {
+            $path = $directory->name . '/' . $path;
+        }
+
+        return $path;
+    }
+
     public function parent(): BelongsTo
     {
         return $this->belongsTo(self::class, 'parent_id');

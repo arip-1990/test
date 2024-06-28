@@ -12,7 +12,7 @@ class FileService
     public function store(array $files, Directory $directory = null): void
     {
         $items = [];
-        $path = $directory ? DirectoryService::getDirectoryPath($directory) : '.';
+        $path = $directory ? $directory->getPath() : '.';
 
         /** @var UploadedFile $file */
         foreach ($files as $file) {
@@ -30,7 +30,7 @@ class FileService
 
     public function rename(File $file, string $newName): void
     {
-        $path = DirectoryService::getDirectoryPath($file->directory);
+        $path = $file->directory->getPath();
         $oldFile = $path . $file->name . '.' . $file->type;
 
         if (!Storage::exists($oldFile) or !Storage::move($oldFile, $path . $newName . '.' . $file->type))
@@ -41,30 +41,11 @@ class FileService
     {
         /** @var File $file */
         foreach ($files as $file) {
-            $path = DirectoryService::getDirectoryPath($file->directory) . $file->name . '.' . $file->type;
+            $path = $file->directory->getPath() . $file->name . '.' . $file->type;
             if (!Storage::exists($path) or !Storage::delete($path))
                 throw new \DomainException('Не удалось удалить файл');
 
             $file->delete();
         }
-    }
-
-    public function getSize(File $file): array
-    {
-        $data = [0, 0];
-        $path = DirectoryService::getDirectoryPath($file->directory) . $file->name . '.' . $file->type;
-        if (Storage::exists($path)) {
-            list($width, $height) = getimagesize(Storage::path($path));
-            $data = [$width, $height];
-        }
-
-        return $data;
-    }
-
-    public function getUrl(File $file): ?string
-    {
-        $path = DirectoryService::getDirectoryPath($file->directory) . $file->name . '.' . $file->type;
-        if (Storage::exists($path)) return Storage::url($path);
-        return null;
     }
 }

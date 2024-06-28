@@ -9,7 +9,7 @@ class DirectoryService
 {
     public function create(string $name, ?Directory $parentDirectory = null): Directory
     {
-        $path = $parentDirectory ? (self::getDirectoryPath($parentDirectory) . $name) : $name;
+        $path = $parentDirectory ? ($parentDirectory->getPath() . $name) : $name;
         if (!Storage::makeDirectory($path))
             throw new \DomainException('Не удалось создать директорию');
 
@@ -18,7 +18,7 @@ class DirectoryService
 
     public function rename(Directory $directory, string $newName): Directory
     {
-        $oldPath = self::getDirectoryPath($directory);
+        $oldPath = $directory->getPath();
         $newPath = explode('/', $oldPath);
         array_pop($newPath);
         $newPath = implode('/', $newPath) . '/' . $newName;
@@ -33,19 +33,9 @@ class DirectoryService
 
     public function delete(Directory $directory): void
     {
-        if (!Storage::deleteDirectory(self::getDirectoryPath($directory)))
+        if (!Storage::deleteDirectory($directory->getPath()))
             throw new \DomainException('Не удалось удалить директорию');
 
         $directory->delete();
-    }
-
-    public static function getDirectoryPath(Directory $directory): string
-    {
-        $path = $directory->name;
-        while ($directory = $directory->parent) {
-            $path = $directory->name . '/' . $path;
-        }
-
-        return $path;
     }
 }

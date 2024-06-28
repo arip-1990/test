@@ -20,6 +20,7 @@ Route::middleware('auth:sanctum')->group(function () {
     });
 
     Route::prefix('file')->group(function () {
+        Route::get('/{file}', File\ShowController::class);
         Route::get('/{directory?}', File\IndexController::class);
         Route::post('/{directory?}', File\UploadController::class);
         Route::put('/{file}', File\RenameController::class);
