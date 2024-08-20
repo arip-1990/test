@@ -9,27 +9,27 @@ use Illuminate\Support\Facades\Storage;
 
 class FileService
 {
-    public function store(array $files, Directory $directory = null): void
+    public function store(array $files, int $directoryId): void
     {
         $items = [];
-        $path = $directory ? $directory->getPath() : '.';
+        $directory = Directory::find($directoryId);
+        $path = $directory->getPath();
 
         /** @var UploadedFile $file */
         foreach ($files as $file) {
-            $fileName = explode('.', $file->getClientOriginalName())[0];
-            $fileType = strtolower($file->getClientOriginalExtension());
-
-            if (!$file->storeAs($path, $fileName . '.' . $fileType))
+            $fileName = $file->getClientOriginalName();
+            if (!$file->storeAs($path, $fileName))
                 throw new \DomainException('Не удалось сохранить файл');
 
-            $items[] = new File(['name' => $fileName, 'type' => $fileType]);
+            $items[] = new File(['name' => $fileName, 'type' => $file->getClientMimeType()]);
         }
 
         $directory?->files()->saveMany($items);
     }
 
-    public function rename(File $file, string $newName): void
+    public function rename(int $fileId, string $newName): void
     {
+        $file = File::find($fileId);
         $path = $file->directory->getPath();
         $oldFile = $path . $file->name . '.' . $file->type;
 

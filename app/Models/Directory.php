@@ -28,9 +28,8 @@ class Directory extends Model
     public function getPath(): string
     {
         $path = $this->name;
-        while ($directory = $this->parent) {
+        while ($directory = $this->parent)
             $path = $directory->name . '/' . $path;
-        }
 
         return $path;
     }

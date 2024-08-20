@@ -12,18 +12,16 @@ Route::prefix('auth')->group(function () {
 });
 
 Route::middleware('auth:sanctum')->group(function () {
-    Route::prefix('directory')->group(function () {
-        Route::get('/{directory?}', Directory\IndexController::class);
+    Route::prefix('dir')->group(function () {
         Route::post('/', Directory\CreateController::class);
-        Route::put('/{directory}', Directory\RenameController::class);
-        Route::delete('/{directory}', Directory\DeleteController::class);
+        Route::put('/', Directory\RenameController::class);
+        Route::delete('/', Directory\DeleteController::class);
     });
 
     Route::prefix('file')->group(function () {
-        Route::get('/{file}', File\ShowController::class);
         Route::get('/{directory?}', File\IndexController::class);
         Route::post('/{directory?}', File\UploadController::class);
-        Route::put('/{file}', File\RenameController::class);
+        Route::put('/', File\RenameController::class);
         Route::delete('/', File\DeleteController::class);
     });
 });

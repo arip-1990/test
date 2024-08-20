@@ -16,8 +16,9 @@ class DirectoryService
         return Directory::create(['name' => $name]);
     }
 
-    public function rename(Directory $directory, string $newName): Directory
+    public function rename(int $directoryId, string $newName): Directory
     {
+        $directory = Directory::find($directoryId);
         $oldPath = $directory->getPath();
         $newPath = explode('/', $oldPath);
         array_pop($newPath);
@@ -31,8 +32,9 @@ class DirectoryService
         return $directory;
     }
 
-    public function delete(Directory $directory): void
+    public function delete(int $directoryId): void
     {
+        $directory = Directory::find($directoryId);
         if (!Storage::deleteDirectory($directory->getPath()))
             throw new \DomainException('Не удалось удалить директорию');
 

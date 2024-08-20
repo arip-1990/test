@@ -23,19 +23,19 @@ class File extends Model
 
     protected $fillable = ['name', 'type'];
 
-    public function getUri(): string
+    public function getPath(): string
     {
         $path = $this->directory->getPath();
 
-        return $path . '/' . $this->name . '.' . $this->type;
+        return $path . '/' . $this->name;
     }
 
     public function getSize(): int
     {
         $path = $this->directory->getPath();
 
-        if (Storage::exists($path . '/' . $this->name . '.' . $this->type))
-            return Storage::size($path . '/' . $this->name . '.' . $this->type);
+        if (Storage::exists($path . '/' . $this->name))
+            return Storage::size($path . '/' . $this->name);
 
         return 0;
     }

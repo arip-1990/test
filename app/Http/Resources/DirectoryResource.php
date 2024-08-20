@@ -2,12 +2,11 @@
 
 namespace App\Http\Resources;
 
-use App\Models\File;
+use App\Models\Directory;
 use Illuminate\Http\Request;
 use Illuminate\Http\Resources\Json\JsonResource;
-use Illuminate\Support\Facades\Storage;
 
-class FileResource extends JsonResource
+class DirectoryResource extends JsonResource
 {
     /**
      * Transform the resource into an array.
@@ -16,13 +15,11 @@ class FileResource extends JsonResource
      */
     public function toArray(Request $request): array
     {
-        /** @var File $this */
+        /** @var Directory $this */
         return [
             'id' => $this->id,
             'name' => $this->name,
             'path' => $this->getPath(),
-            'url' => Storage::url($this->getPath()),
-            'type' => $this->type,
             'createdAt' => $this->created_at,
             'updatedAt' => $this->updated_at
         ];

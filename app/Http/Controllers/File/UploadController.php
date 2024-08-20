@@ -3,7 +3,6 @@
 namespace App\Http\Controllers\File;
 
 use App\Http\Controllers\Controller;
-use App\Models\Directory;
 use App\UseCases\FileService;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
@@ -13,14 +12,14 @@ class UploadController extends Controller
 {
     public function __construct(private readonly FileService $service) {}
 
-    public function __invoke(Request $request, ?Directory $directory = null): JsonResponse
+    public function __invoke(Request $request): JsonResponse
     {
         if (!$request->hasFile('file') or !$request->file('file')->isValid())
             return new JsonResponse();
 
         $files = $request->file('file');
-        $this->service->store($files, $directory);
+        $this->service->store($files, $request->get('directory_id'));
 
-        return new JsonResponse([], Response::HTTP_CREATED);
+        return new JsonResponse(status: Response::HTTP_CREATED);
     }
 }

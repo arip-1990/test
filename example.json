@@ -1,0 +1,560 @@
+[
+    {
+        "uid": "393300028",
+        "login": "arip-1990",
+        "sk": "0b829d193ba238ad256b3b2177ac8e7159a42621:1723968289",
+        "version": "370.0.0",
+        "models": [
+            {
+                "model": "resources",
+                "params": {
+                    "sort": "name",
+                    "order": "1",
+                    "idContext": "/disk",
+                    "amount": "40",
+                    "offset": "0",
+                    "withParent": "1"
+                },
+                "data": {
+                    "resources": [
+                        {
+                            "ctime": 1333569600,
+                            "meta": {
+                                "uid": "393300028",
+                                "total_results_count": 10,
+                                "resource_id": "393300028:3c8a661cce796b21075fc5247001312eced7a3cdf27f1a110220804ed6f5a6a0"
+                            },
+                            "mtime": 1333569600,
+                            "path": "/disk",
+                            "utime": 0,
+                            "type": "dir",
+                            "id": "/disk/",
+                            "name": "disk"
+                        },
+                        {
+                            "ctime": 1568547801,
+                            "meta": {
+                                "resource_id": "393300028:67715aa47764de7928b1718c4b45fe4ea5307d9e487ea82201a6bb346259b91b",
+                                "file_id": "67715aa47764de7928b1718c4b45fe4ea5307d9e487ea82201a6bb346259b91b",
+                                "total_results_count": 2,
+                                "uid": "393300028"
+                            },
+                            "mtime": 1710274430,
+                            "path": "/disk/DCIM",
+                            "utime": 1568547801,
+                            "type": "dir",
+                            "id": "/disk/DCIM/",
+                            "name": "DCIM"
+                        },
+                        {
+                            "ctime": 1663286325,
+                            "meta": {
+                                "resource_id": "393300028:11553ace3e922efbdf30c852a96744617bb39c2221dcaf469e1bed698c9a7562",
+                                "file_id": "11553ace3e922efbdf30c852a96744617bb39c2221dcaf469e1bed698c9a7562",
+                                "uid": "393300028"
+                            },
+                            "mtime": 1663286325,
+                            "path": "/disk/Eliseev",
+                            "utime": 1663286325,
+                            "type": "dir",
+                            "id": "/disk/Eliseev/",
+                            "name": "Eliseev"
+                        },
+                        {
+                            "ctime": 1586273172,
+                            "meta": {
+                                "resource_id": "393300028:b68851da9e63182d04ffcdabe91a5bede7ebede80e8bd5686fb5399092b61309",
+                                "file_id": "b68851da9e63182d04ffcdabe91a5bede7ebede80e8bd5686fb5399092b61309",
+                                "total_results_count": 4,
+                                "uid": "393300028"
+                            },
+                            "mtime": 1601065186,
+                            "path": "/disk/Видео",
+                            "utime": 1586273172,
+                            "type": "dir",
+                            "id": "/disk/Видео/",
+                            "name": "Видео"
+                        },
+                        {
+                            "ctime": 1611651948,
+                            "meta": {
+                                "resource_id": "393300028:5f345ab4cc732d986c867583ffb8b468f2e66fa119ba3d03682fe5af9a86b80b",
+                                "file_id": "5f345ab4cc732d986c867583ffb8b468f2e66fa119ba3d03682fe5af9a86b80b",
+                                "uid": "393300028"
+                            },
+                            "mtime": 1611651948,
+                            "path": "/disk/Документы",
+                            "utime": 1611651948,
+                            "type": "dir",
+                            "id": "/disk/Документы/",
+                            "name": "Документы"
+                        },
+                        {
+                            "ctime": 1536314354,
+                            "meta": {
+                                "resource_id": "393300028:89b6c2b43427bc4163b0d70da97a8c02f71a3e5660035ab29b3b8f6d52ca8b8c",
+                                "file_id": "89b6c2b43427bc4163b0d70da97a8c02f71a3e5660035ab29b3b8f6d52ca8b8c",
+                                "total_results_count": 1,
+                                "uid": "393300028"
+                            },
+                            "mtime": 1701743482,
+                            "path": "/disk/Загрузки",
+                            "utime": 1536314354,
+                            "type": "dir",
+                            "id": "/disk/Загрузки/",
+                            "name": "Загрузки"
+                        },
+                        {
+                            "ctime": 1568547811,
+                            "meta": {
+                                "resource_id": "393300028:b3ef195f49cfc4dc86a1515b28b0f2b03716971da71a9804df7f7b1224a98ae9",
+                                "file_id": "b3ef195f49cfc4dc86a1515b28b0f2b03716971da71a9804df7f7b1224a98ae9",
+                                "total_results_count": 5,
+                                "uid": "393300028"
+                            },
+                            "mtime": 1601065186,
+                            "path": "/disk/Книги",
+                            "utime": 1568547811,
+                            "type": "dir",
+                            "id": "/disk/Книги/",
+                            "name": "Книги"
+                        },
+                        {
+                            "ctime": 1713771386,
+                            "meta": {
+                                "resource_id": "393300028:a2ead5c6603e8f8a041f6c74c44c291b0d4771373bb4bf1dce70a7a8a42da63d",
+                                "file_id": "a2ead5c6603e8f8a041f6c74c44c291b0d4771373bb4bf1dce70a7a8a42da63d",
+                                "uid": "393300028"
+                            },
+                            "mtime": 1713771386,
+                            "path": "/disk/Компьютер SOKOL",
+                            "utime": 1713771386,
+                            "type": "dir",
+                            "id": "/disk/Компьютер SOKOL/",
+                            "name": "Компьютер SOKOL"
+                        },
+                        {
+                            "ctime": 1579367428,
+                            "meta": {
+                                "resource_id": "393300028:6dea5cb7c8badc549b88c0bb4c3cdef4735705058b72e11c6b9898fc68d7a0fc",
+                                "file_id": "6dea5cb7c8badc549b88c0bb4c3cdef4735705058b72e11c6b9898fc68d7a0fc",
+                                "uid": "393300028"
+                            },
+                            "mtime": 1579367428,
+                            "path": "/disk/Скриншоты",
+                            "utime": 1579367428,
+                            "type": "dir",
+                            "id": "/disk/Скриншоты/",
+                            "name": "Скриншоты"
+                        },
+                        {
+                            "ctime": 1602488321,
+                            "meta": {
+                                "resource_id": "393300028:97ebd827592f7db6729bd430fe47823329337398815dfd84ba40ec99b6273985",
+                                "file_id": "97ebd827592f7db6729bd430fe47823329337398815dfd84ba40ec99b6273985",
+                                "uid": "393300028"
+                            },
+                            "mtime": 1602488321,
+                            "path": "/disk/Фотокамера",
+                            "utime": 1602488321,
+                            "type": "dir",
+                            "id": "/disk/Фотокамера/",
+                            "name": "Фотокамера"
+                        },
+                        {
+                            "ctime": 1721575585,
+                            "meta": {
+                                "mimetype": "application/octet-stream",
+                                "drweb": 1,
+                                "uid": "393300028",
+                                "resource_id": "393300028:4ef27343fd6038c448c9a159cb25800353b24f70b70d6627223a0b2d0ba1f0be",
+                                "mediatype": "data",
+                                "file_id": "4ef27343fd6038c448c9a159cb25800353b24f70b70d6627223a0b2d0ba1f0be",
+                                "versioning_status": "versionable",
+                                "size": 4757
+                            },
+                            "mtime": 1721575585,
+                            "path": "/disk/Пароли.kdbx",
+                            "utime": 1721575585,
+                            "type": "file",
+                            "id": "/disk/Пароли.kdbx",
+                            "name": "Пароли.kdbx"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "uid": "393300028",
+        "login": "arip-1990",
+        "sk": "16f63eb49511bccba81fbb42bfd8a7948862e998:1723968587",
+        "version": "370.0.0",
+        "models": [
+            {
+                "model": "resources",
+                "params": {
+                    "sort": "name",
+                    "order": "1",
+                    "idContext": "/disk/Книги",
+                    "amount": "40",
+                    "offset": "0",
+                    "withParent": "1"
+                },
+                "data": {
+                    "resources": [
+                        {
+                            "ctime": 1568547811,
+                            "meta": {
+                                "resource_id": "393300028:b3ef195f49cfc4dc86a1515b28b0f2b03716971da71a9804df7f7b1224a98ae9",
+                                "file_id": "b3ef195f49cfc4dc86a1515b28b0f2b03716971da71a9804df7f7b1224a98ae9",
+                                "total_results_count": 7,
+                                "uid": "393300028"
+                            },
+                            "mtime": 1601065186,
+                            "path": "/disk/Книги",
+                            "utime": 1568547811,
+                            "type": "dir",
+                            "id": "/disk/Книги/",
+                            "name": "Книги"
+                        },
+                        {
+                            "ctime": 1701743483,
+                            "meta": {
+                                "resource_id": "393300028:4e2874ce2ec017a6b0f0793977e4ee7da007436e917620218e7b096d897b939a",
+                                "file_id": "4e2874ce2ec017a6b0f0793977e4ee7da007436e917620218e7b096d897b939a",
+                                "total_results_count": 6,
+                                "uid": "393300028"
+                            },
+                            "mtime": 1701743482,
+                            "path": "/disk/Книги/Udemy Взламываем сайты | Тестирование на проникновение с нуля",
+                            "utime": 1512835451,
+                            "type": "dir",
+                            "id": "/disk/Книги/Udemy Взламываем сайты | Тестирование на проникновение с нуля/",
+                            "name": "Udemy Взламываем сайты | Тестирование на проникновение с нуля"
+                        },
+                        {
+                            "ctime": 1601064692,
+                            "meta": {
+                                "resource_id": "393300028:3fe5388144ec14c125db359c46062d597cb118c4f8702ccdf9686457597ff4d5",
+                                "file_id": "3fe5388144ec14c125db359c46062d597cb118c4f8702ccdf9686457597ff4d5",
+                                "uid": "393300028"
+                            },
+                            "mtime": 1601064692,
+                            "path": "/disk/Книги/Программирование.введение в профессию.",
+                            "utime": 1601064692,
+                            "type": "dir",
+                            "id": "/disk/Книги/Программирование.введение в профессию./",
+                            "name": "Программирование.введение в профессию."
+                        },
+                        {
+                            "ctime": 1568547816,
+                            "meta": {
+                                "mimetype": "application/pdf",
+                                "drweb": 1,
+                                "uid": "393300028",
+                                "sizes": [
+                                    {
+                                        "url": "//2.downloader.disk.yandex.ru/preview/0a359740fc35cb640d1c4dbecddb4e595db19d4ec5624bbad1364233a79171ca/inf/fKqInKw3d7bLFOeFnMGnhLcEyZgqHeKsWEkaBqjq_RQX8wulBAuSCFH1tttpHFuUtRbKHVmKm3ogRkcR10nw2LC30ZMzOJbbwjdPzTVRbUOr8npumZHI4midPdWhecNq?uid=393300028&filename=Modern%20X86%20Assembly%20Language%20Programming%202nd%20Edition.Pdf&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=393300028&tknv=v2",
+                                        "name": "DEFAULT"
+                                    },
+                                    {
+                                        "url": "//4.downloader.disk.yandex.ru/preview/0a359740fc35cb640d1c4dbecddb4e595db19d4ec5624bbad1364233a79171ca/inf/fKqInKw3d7bLFOeFnMGnhLcEyZgqHeKsWEkaBqjq_RQX8wulBAuSCFH1tttpHFuUtRbKHVmKm3ogRkcR10nw2LC30ZMzOJbbwjdPzTVRbUOr8npumZHI4midPdWhecNq?uid=393300028&filename=Modern%20X86%20Assembly%20Language%20Programming%202nd%20Edition.Pdf&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=393300028&tknv=v2&size=XXXS&crop=0",
+                                        "name": "XXXS"
+                                    },
+                                    {
+                                        "url": "//2.downloader.disk.yandex.ru/preview/0a359740fc35cb640d1c4dbecddb4e595db19d4ec5624bbad1364233a79171ca/inf/fKqInKw3d7bLFOeFnMGnhLcEyZgqHeKsWEkaBqjq_RQX8wulBAuSCFH1tttpHFuUtRbKHVmKm3ogRkcR10nw2LC30ZMzOJbbwjdPzTVRbUOr8npumZHI4midPdWhecNq?uid=393300028&filename=Modern%20X86%20Assembly%20Language%20Programming%202nd%20Edition.Pdf&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=393300028&tknv=v2&size=XXS&crop=0",
+                                        "name": "XXS"
+                                    },
+                                    {
+                                        "url": "//4.downloader.disk.yandex.ru/preview/0a359740fc35cb640d1c4dbecddb4e595db19d4ec5624bbad1364233a79171ca/inf/fKqInKw3d7bLFOeFnMGnhLcEyZgqHeKsWEkaBqjq_RQX8wulBAuSCFH1tttpHFuUtRbKHVmKm3ogRkcR10nw2LC30ZMzOJbbwjdPzTVRbUOr8npumZHI4midPdWhecNq?uid=393300028&filename=Modern%20X86%20Assembly%20Language%20Programming%202nd%20Edition.Pdf&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=393300028&tknv=v2&size=XS&crop=0",
+                                        "name": "XS"
+                                    },
+                                    {
+                                        "url": "//2.downloader.disk.yandex.ru/preview/0a359740fc35cb640d1c4dbecddb4e595db19d4ec5624bbad1364233a79171ca/inf/fKqInKw3d7bLFOeFnMGnhLcEyZgqHeKsWEkaBqjq_RQX8wulBAuSCFH1tttpHFuUtRbKHVmKm3ogRkcR10nw2LC30ZMzOJbbwjdPzTVRbUOr8npumZHI4midPdWhecNq?uid=393300028&filename=Modern%20X86%20Assembly%20Language%20Programming%202nd%20Edition.Pdf&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=393300028&tknv=v2&size=S&crop=0",
+                                        "name": "S"
+                                    },
+                                    {
+                                        "url": "//4.downloader.disk.yandex.ru/preview/0a359740fc35cb640d1c4dbecddb4e595db19d4ec5624bbad1364233a79171ca/inf/fKqInKw3d7bLFOeFnMGnhLcEyZgqHeKsWEkaBqjq_RQX8wulBAuSCFH1tttpHFuUtRbKHVmKm3ogRkcR10nw2LC30ZMzOJbbwjdPzTVRbUOr8npumZHI4midPdWhecNq?uid=393300028&filename=Modern%20X86%20Assembly%20Language%20Programming%202nd%20Edition.Pdf&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=393300028&tknv=v2&size=M&crop=0",
+                                        "name": "M"
+                                    },
+                                    {
+                                        "url": "//1.downloader.disk.yandex.ru/preview/0a359740fc35cb640d1c4dbecddb4e595db19d4ec5624bbad1364233a79171ca/inf/fKqInKw3d7bLFOeFnMGnhLcEyZgqHeKsWEkaBqjq_RQX8wulBAuSCFH1tttpHFuUtRbKHVmKm3ogRkcR10nw2LC30ZMzOJbbwjdPzTVRbUOr8npumZHI4midPdWhecNq?uid=393300028&filename=Modern%20X86%20Assembly%20Language%20Programming%202nd%20Edition.Pdf&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=393300028&tknv=v2&size=L&crop=0",
+                                        "name": "L"
+                                    },
+                                    {
+                                        "url": "//3.downloader.disk.yandex.ru/preview/0a359740fc35cb640d1c4dbecddb4e595db19d4ec5624bbad1364233a79171ca/inf/fKqInKw3d7bLFOeFnMGnhLcEyZgqHeKsWEkaBqjq_RQX8wulBAuSCFH1tttpHFuUtRbKHVmKm3ogRkcR10nw2LC30ZMzOJbbwjdPzTVRbUOr8npumZHI4midPdWhecNq?uid=393300028&filename=Modern%20X86%20Assembly%20Language%20Programming%202nd%20Edition.Pdf&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=393300028&tknv=v2&size=XL&crop=0",
+                                        "name": "XL"
+                                    },
+                                    {
+                                        "url": "//1.downloader.disk.yandex.ru/preview/0a359740fc35cb640d1c4dbecddb4e595db19d4ec5624bbad1364233a79171ca/inf/fKqInKw3d7bLFOeFnMGnhLcEyZgqHeKsWEkaBqjq_RQX8wulBAuSCFH1tttpHFuUtRbKHVmKm3ogRkcR10nw2LC30ZMzOJbbwjdPzTVRbUOr8npumZHI4midPdWhecNq?uid=393300028&filename=Modern%20X86%20Assembly%20Language%20Programming%202nd%20Edition.Pdf&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=393300028&tknv=v2&size=XXL&crop=0",
+                                        "name": "XXL"
+                                    },
+                                    {
+                                        "url": "//3.downloader.disk.yandex.ru/preview/0a359740fc35cb640d1c4dbecddb4e595db19d4ec5624bbad1364233a79171ca/inf/fKqInKw3d7bLFOeFnMGnhLcEyZgqHeKsWEkaBqjq_RQX8wulBAuSCFH1tttpHFuUtRbKHVmKm3ogRkcR10nw2LC30ZMzOJbbwjdPzTVRbUOr8npumZHI4midPdWhecNq?uid=393300028&filename=Modern%20X86%20Assembly%20Language%20Programming%202nd%20Edition.Pdf&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=393300028&tknv=v2&size=XXXL&crop=0",
+                                        "name": "XXXL"
+                                    }
+                                ],
+                                "resource_id": "393300028:62a196a3fe0e7b2399e25ad2c9c547d0c01af608009ac207f7f20891a0f69272",
+                                "mediatype": "document",
+                                "file_id": "62a196a3fe0e7b2399e25ad2c9c547d0c01af608009ac207f7f20891a0f69272",
+                                "versioning_status": "versionable",
+                                "size": 18294840
+                            },
+                            "mtime": 1568547817,
+                            "path": "/disk/Книги/Modern X86 Assembly Language Programming 2nd Edition.Pdf",
+                            "utime": 1568547817,
+                            "type": "file",
+                            "id": "/disk/Книги/Modern X86 Assembly Language Programming 2nd Edition.Pdf",
+                            "name": "Modern X86 Assembly Language Programming 2nd Edition.Pdf"
+                        },
+                        {
+                            "ctime": 1601064719,
+                            "meta": {
+                                "mimetype": "application/pdf",
+                                "drweb": 1,
+                                "uid": "393300028",
+                                "sizes": [
+                                    {
+                                        "url": "//1.downloader.disk.yandex.ru/preview/4fa0443b1cb49409527a9b898d2a4600f41bd71693d40f2af6d331fd1e176074/inf/ungJxunc1orfTdHTLhcoVrtA1MgthJWj_bcvRvg_BYCGMFDEAHxRqfBZPH956itsALw-70uB5kgFg3Z2c3u1aQ%3D%3D?uid=393300028&filename=Stefan_R._C%2B%2B_dlya_chainikov_Litmir.net_bid174394_original_9eef0.pdf&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=393300028&tknv=v2",
+                                        "name": "DEFAULT"
+                                    },
+                                    {
+                                        "url": "//1.downloader.disk.yandex.ru/preview/4fa0443b1cb49409527a9b898d2a4600f41bd71693d40f2af6d331fd1e176074/inf/ungJxunc1orfTdHTLhcoVrtA1MgthJWj_bcvRvg_BYCGMFDEAHxRqfBZPH956itsALw-70uB5kgFg3Z2c3u1aQ%3D%3D?uid=393300028&filename=Stefan_R._C%2B%2B_dlya_chainikov_Litmir.net_bid174394_original_9eef0.pdf&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=393300028&tknv=v2&size=XXXS&crop=0",
+                                        "name": "XXXS"
+                                    },
+                                    {
+                                        "url": "//1.downloader.disk.yandex.ru/preview/4fa0443b1cb49409527a9b898d2a4600f41bd71693d40f2af6d331fd1e176074/inf/ungJxunc1orfTdHTLhcoVrtA1MgthJWj_bcvRvg_BYCGMFDEAHxRqfBZPH956itsALw-70uB5kgFg3Z2c3u1aQ%3D%3D?uid=393300028&filename=Stefan_R._C%2B%2B_dlya_chainikov_Litmir.net_bid174394_original_9eef0.pdf&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=393300028&tknv=v2&size=XXS&crop=0",
+                                        "name": "XXS"
+                                    },
+                                    {
+                                        "url": "//1.downloader.disk.yandex.ru/preview/4fa0443b1cb49409527a9b898d2a4600f41bd71693d40f2af6d331fd1e176074/inf/ungJxunc1orfTdHTLhcoVrtA1MgthJWj_bcvRvg_BYCGMFDEAHxRqfBZPH956itsALw-70uB5kgFg3Z2c3u1aQ%3D%3D?uid=393300028&filename=Stefan_R._C%2B%2B_dlya_chainikov_Litmir.net_bid174394_original_9eef0.pdf&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=393300028&tknv=v2&size=XS&crop=0",
+                                        "name": "XS"
+                                    },
+                                    {
+                                        "url": "//1.downloader.disk.yandex.ru/preview/4fa0443b1cb49409527a9b898d2a4600f41bd71693d40f2af6d331fd1e176074/inf/ungJxunc1orfTdHTLhcoVrtA1MgthJWj_bcvRvg_BYCGMFDEAHxRqfBZPH956itsALw-70uB5kgFg3Z2c3u1aQ%3D%3D?uid=393300028&filename=Stefan_R._C%2B%2B_dlya_chainikov_Litmir.net_bid174394_original_9eef0.pdf&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=393300028&tknv=v2&size=S&crop=0",
+                                        "name": "S"
+                                    },
+                                    {
+                                        "url": "//3.downloader.disk.yandex.ru/preview/4fa0443b1cb49409527a9b898d2a4600f41bd71693d40f2af6d331fd1e176074/inf/ungJxunc1orfTdHTLhcoVrtA1MgthJWj_bcvRvg_BYCGMFDEAHxRqfBZPH956itsALw-70uB5kgFg3Z2c3u1aQ%3D%3D?uid=393300028&filename=Stefan_R._C%2B%2B_dlya_chainikov_Litmir.net_bid174394_original_9eef0.pdf&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=393300028&tknv=v2&size=M&crop=0",
+                                        "name": "M"
+                                    },
+                                    {
+                                        "url": "//4.downloader.disk.yandex.ru/preview/4fa0443b1cb49409527a9b898d2a4600f41bd71693d40f2af6d331fd1e176074/inf/ungJxunc1orfTdHTLhcoVrtA1MgthJWj_bcvRvg_BYCGMFDEAHxRqfBZPH956itsALw-70uB5kgFg3Z2c3u1aQ%3D%3D?uid=393300028&filename=Stefan_R._C%2B%2B_dlya_chainikov_Litmir.net_bid174394_original_9eef0.pdf&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=393300028&tknv=v2&size=L&crop=0",
+                                        "name": "L"
+                                    },
+                                    {
+                                        "url": "//4.downloader.disk.yandex.ru/preview/4fa0443b1cb49409527a9b898d2a4600f41bd71693d40f2af6d331fd1e176074/inf/ungJxunc1orfTdHTLhcoVrtA1MgthJWj_bcvRvg_BYCGMFDEAHxRqfBZPH956itsALw-70uB5kgFg3Z2c3u1aQ%3D%3D?uid=393300028&filename=Stefan_R._C%2B%2B_dlya_chainikov_Litmir.net_bid174394_original_9eef0.pdf&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=393300028&tknv=v2&size=XL&crop=0",
+                                        "name": "XL"
+                                    },
+                                    {
+                                        "url": "//4.downloader.disk.yandex.ru/preview/4fa0443b1cb49409527a9b898d2a4600f41bd71693d40f2af6d331fd1e176074/inf/ungJxunc1orfTdHTLhcoVrtA1MgthJWj_bcvRvg_BYCGMFDEAHxRqfBZPH956itsALw-70uB5kgFg3Z2c3u1aQ%3D%3D?uid=393300028&filename=Stefan_R._C%2B%2B_dlya_chainikov_Litmir.net_bid174394_original_9eef0.pdf&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=393300028&tknv=v2&size=XXL&crop=0",
+                                        "name": "XXL"
+                                    },
+                                    {
+                                        "url": "//4.downloader.disk.yandex.ru/preview/4fa0443b1cb49409527a9b898d2a4600f41bd71693d40f2af6d331fd1e176074/inf/ungJxunc1orfTdHTLhcoVrtA1MgthJWj_bcvRvg_BYCGMFDEAHxRqfBZPH956itsALw-70uB5kgFg3Z2c3u1aQ%3D%3D?uid=393300028&filename=Stefan_R._C%2B%2B_dlya_chainikov_Litmir.net_bid174394_original_9eef0.pdf&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=393300028&tknv=v2&size=XXXL&crop=0",
+                                        "name": "XXXL"
+                                    }
+                                ],
+                                "resource_id": "393300028:187292b934fe8c0b9358a2162c1ab96a3ac61cb9df3133ab71d88cb218088437",
+                                "mediatype": "document",
+                                "file_id": "187292b934fe8c0b9358a2162c1ab96a3ac61cb9df3133ab71d88cb218088437",
+                                "versioning_status": "versionable",
+                                "size": 6822687
+                            },
+                            "mtime": 1601064719,
+                            "path": "/disk/Книги/Stefan_R._C++_dlya_chainikov_Litmir.net_bid174394_original_9eef0.pdf",
+                            "utime": 1601064719,
+                            "type": "file",
+                            "id": "/disk/Книги/Stefan_R._C++_dlya_chainikov_Litmir.net_bid174394_original_9eef0.pdf",
+                            "name": "Stefan_R._C++_dlya_chainikov_Litmir.net_bid174394_original_9eef0.pdf"
+                        },
+                        {
+                            "ctime": 1568547822,
+                            "meta": {
+                                "mimetype": "application/pdf",
+                                "drweb": 1,
+                                "uid": "393300028",
+                                "sizes": [
+                                    {
+                                        "url": "//1.downloader.disk.yandex.ru/preview/42743ab0eb6189efb08c1a3a2395f75e8a2189fed191d81f394946ff70efc7dd/inf/FYFmx1i04UilhU6MrMkQejJ99PG-WPKFkGXoWrsBq9k3soG80EVVXUu4OQfXP9QsFZfqfwLWxYYZWym5FJsICw%3D%3D?uid=393300028&filename=code.pdf&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=393300028&tknv=v2",
+                                        "name": "DEFAULT"
+                                    },
+                                    {
+                                        "url": "//1.downloader.disk.yandex.ru/preview/42743ab0eb6189efb08c1a3a2395f75e8a2189fed191d81f394946ff70efc7dd/inf/FYFmx1i04UilhU6MrMkQejJ99PG-WPKFkGXoWrsBq9k3soG80EVVXUu4OQfXP9QsFZfqfwLWxYYZWym5FJsICw%3D%3D?uid=393300028&filename=code.pdf&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=393300028&tknv=v2&size=XXXS&crop=0",
+                                        "name": "XXXS"
+                                    },
+                                    {
+                                        "url": "//1.downloader.disk.yandex.ru/preview/42743ab0eb6189efb08c1a3a2395f75e8a2189fed191d81f394946ff70efc7dd/inf/FYFmx1i04UilhU6MrMkQejJ99PG-WPKFkGXoWrsBq9k3soG80EVVXUu4OQfXP9QsFZfqfwLWxYYZWym5FJsICw%3D%3D?uid=393300028&filename=code.pdf&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=393300028&tknv=v2&size=XXS&crop=0",
+                                        "name": "XXS"
+                                    },
+                                    {
+                                        "url": "//1.downloader.disk.yandex.ru/preview/42743ab0eb6189efb08c1a3a2395f75e8a2189fed191d81f394946ff70efc7dd/inf/FYFmx1i04UilhU6MrMkQejJ99PG-WPKFkGXoWrsBq9k3soG80EVVXUu4OQfXP9QsFZfqfwLWxYYZWym5FJsICw%3D%3D?uid=393300028&filename=code.pdf&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=393300028&tknv=v2&size=XS&crop=0",
+                                        "name": "XS"
+                                    },
+                                    {
+                                        "url": "//1.downloader.disk.yandex.ru/preview/42743ab0eb6189efb08c1a3a2395f75e8a2189fed191d81f394946ff70efc7dd/inf/FYFmx1i04UilhU6MrMkQejJ99PG-WPKFkGXoWrsBq9k3soG80EVVXUu4OQfXP9QsFZfqfwLWxYYZWym5FJsICw%3D%3D?uid=393300028&filename=code.pdf&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=393300028&tknv=v2&size=S&crop=0",
+                                        "name": "S"
+                                    },
+                                    {
+                                        "url": "//3.downloader.disk.yandex.ru/preview/42743ab0eb6189efb08c1a3a2395f75e8a2189fed191d81f394946ff70efc7dd/inf/FYFmx1i04UilhU6MrMkQejJ99PG-WPKFkGXoWrsBq9k3soG80EVVXUu4OQfXP9QsFZfqfwLWxYYZWym5FJsICw%3D%3D?uid=393300028&filename=code.pdf&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=393300028&tknv=v2&size=M&crop=0",
+                                        "name": "M"
+                                    },
+                                    {
+                                        "url": "//4.downloader.disk.yandex.ru/preview/42743ab0eb6189efb08c1a3a2395f75e8a2189fed191d81f394946ff70efc7dd/inf/FYFmx1i04UilhU6MrMkQejJ99PG-WPKFkGXoWrsBq9k3soG80EVVXUu4OQfXP9QsFZfqfwLWxYYZWym5FJsICw%3D%3D?uid=393300028&filename=code.pdf&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=393300028&tknv=v2&size=L&crop=0",
+                                        "name": "L"
+                                    },
+                                    {
+                                        "url": "//4.downloader.disk.yandex.ru/preview/42743ab0eb6189efb08c1a3a2395f75e8a2189fed191d81f394946ff70efc7dd/inf/FYFmx1i04UilhU6MrMkQejJ99PG-WPKFkGXoWrsBq9k3soG80EVVXUu4OQfXP9QsFZfqfwLWxYYZWym5FJsICw%3D%3D?uid=393300028&filename=code.pdf&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=393300028&tknv=v2&size=XL&crop=0",
+                                        "name": "XL"
+                                    },
+                                    {
+                                        "url": "//4.downloader.disk.yandex.ru/preview/42743ab0eb6189efb08c1a3a2395f75e8a2189fed191d81f394946ff70efc7dd/inf/FYFmx1i04UilhU6MrMkQejJ99PG-WPKFkGXoWrsBq9k3soG80EVVXUu4OQfXP9QsFZfqfwLWxYYZWym5FJsICw%3D%3D?uid=393300028&filename=code.pdf&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=393300028&tknv=v2&size=XXL&crop=0",
+                                        "name": "XXL"
+                                    },
+                                    {
+                                        "url": "//4.downloader.disk.yandex.ru/preview/42743ab0eb6189efb08c1a3a2395f75e8a2189fed191d81f394946ff70efc7dd/inf/FYFmx1i04UilhU6MrMkQejJ99PG-WPKFkGXoWrsBq9k3soG80EVVXUu4OQfXP9QsFZfqfwLWxYYZWym5FJsICw%3D%3D?uid=393300028&filename=code.pdf&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=393300028&tknv=v2&size=XXXL&crop=0",
+                                        "name": "XXXL"
+                                    }
+                                ],
+                                "resource_id": "393300028:b8044995e31064bfb07d69d1677d2e30f59ccd53f27acb8c7756e0af1557847d",
+                                "mediatype": "document",
+                                "file_id": "b8044995e31064bfb07d69d1677d2e30f59ccd53f27acb8c7756e0af1557847d",
+                                "versioning_status": "versionable",
+                                "size": 3452350
+                            },
+                            "mtime": 1568547823,
+                            "path": "/disk/Книги/code.pdf",
+                            "utime": 1568547823,
+                            "type": "file",
+                            "id": "/disk/Книги/code.pdf",
+                            "name": "code.pdf"
+                        },
+                        {
+                            "ctime": 1627295838,
+                            "meta": {
+                                "mimetype": "application/pdf",
+                                "drweb": 1,
+                                "uid": "393300028",
+                                "sizes": [
+                                    {
+                                        "url": "//2.downloader.disk.yandex.ru/preview/3c66eb9e47a0cc62434fc484b82059e984fdb2bbf35224dd75ba273630be4892/inf/65caMIirm5sLUN2Zm_3OFVvQ1vvkH0s_iaZT3XvzZ3wUQrgH_mLfuExYtz3pZVfAs39z9WwWhVoAoBGK0bsfWQ%3D%3D?uid=393300028&filename=%D0%93%D1%80%D0%BE%D0%BA%D0%B0%D0%B5%D0%BC%20%D0%B0%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%BC%D1%8B%202017%20%D0%90%D0%B4%D0%B8%D1%82%D1%8C%D1%8F%20%D0%91%D1%85%D0%B0%D1%80%D0%B3%D0%B0%D0%B2%D0%B0.pdf&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=393300028&tknv=v2",
+                                        "name": "DEFAULT"
+                                    },
+                                    {
+                                        "url": "//4.downloader.disk.yandex.ru/preview/3c66eb9e47a0cc62434fc484b82059e984fdb2bbf35224dd75ba273630be4892/inf/65caMIirm5sLUN2Zm_3OFVvQ1vvkH0s_iaZT3XvzZ3wUQrgH_mLfuExYtz3pZVfAs39z9WwWhVoAoBGK0bsfWQ%3D%3D?uid=393300028&filename=%D0%93%D1%80%D0%BE%D0%BA%D0%B0%D0%B5%D0%BC%20%D0%B0%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%BC%D1%8B%202017%20%D0%90%D0%B4%D0%B8%D1%82%D1%8C%D1%8F%20%D0%91%D1%85%D0%B0%D1%80%D0%B3%D0%B0%D0%B2%D0%B0.pdf&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=393300028&tknv=v2&size=XXXS&crop=0",
+                                        "name": "XXXS"
+                                    },
+                                    {
+                                        "url": "//2.downloader.disk.yandex.ru/preview/3c66eb9e47a0cc62434fc484b82059e984fdb2bbf35224dd75ba273630be4892/inf/65caMIirm5sLUN2Zm_3OFVvQ1vvkH0s_iaZT3XvzZ3wUQrgH_mLfuExYtz3pZVfAs39z9WwWhVoAoBGK0bsfWQ%3D%3D?uid=393300028&filename=%D0%93%D1%80%D0%BE%D0%BA%D0%B0%D0%B5%D0%BC%20%D0%B0%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%BC%D1%8B%202017%20%D0%90%D0%B4%D0%B8%D1%82%D1%8C%D1%8F%20%D0%91%D1%85%D0%B0%D1%80%D0%B3%D0%B0%D0%B2%D0%B0.pdf&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=393300028&tknv=v2&size=XXS&crop=0",
+                                        "name": "XXS"
+                                    },
+                                    {
+                                        "url": "//4.downloader.disk.yandex.ru/preview/3c66eb9e47a0cc62434fc484b82059e984fdb2bbf35224dd75ba273630be4892/inf/65caMIirm5sLUN2Zm_3OFVvQ1vvkH0s_iaZT3XvzZ3wUQrgH_mLfuExYtz3pZVfAs39z9WwWhVoAoBGK0bsfWQ%3D%3D?uid=393300028&filename=%D0%93%D1%80%D0%BE%D0%BA%D0%B0%D0%B5%D0%BC%20%D0%B0%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%BC%D1%8B%202017%20%D0%90%D0%B4%D0%B8%D1%82%D1%8C%D1%8F%20%D0%91%D1%85%D0%B0%D1%80%D0%B3%D0%B0%D0%B2%D0%B0.pdf&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=393300028&tknv=v2&size=XS&crop=0",
+                                        "name": "XS"
+                                    },
+                                    {
+                                        "url": "//2.downloader.disk.yandex.ru/preview/3c66eb9e47a0cc62434fc484b82059e984fdb2bbf35224dd75ba273630be4892/inf/65caMIirm5sLUN2Zm_3OFVvQ1vvkH0s_iaZT3XvzZ3wUQrgH_mLfuExYtz3pZVfAs39z9WwWhVoAoBGK0bsfWQ%3D%3D?uid=393300028&filename=%D0%93%D1%80%D0%BE%D0%BA%D0%B0%D0%B5%D0%BC%20%D0%B0%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%BC%D1%8B%202017%20%D0%90%D0%B4%D0%B8%D1%82%D1%8C%D1%8F%20%D0%91%D1%85%D0%B0%D1%80%D0%B3%D0%B0%D0%B2%D0%B0.pdf&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=393300028&tknv=v2&size=S&crop=0",
+                                        "name": "S"
+                                    },
+                                    {
+                                        "url": "//4.downloader.disk.yandex.ru/preview/3c66eb9e47a0cc62434fc484b82059e984fdb2bbf35224dd75ba273630be4892/inf/65caMIirm5sLUN2Zm_3OFVvQ1vvkH0s_iaZT3XvzZ3wUQrgH_mLfuExYtz3pZVfAs39z9WwWhVoAoBGK0bsfWQ%3D%3D?uid=393300028&filename=%D0%93%D1%80%D0%BE%D0%BA%D0%B0%D0%B5%D0%BC%20%D0%B0%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%BC%D1%8B%202017%20%D0%90%D0%B4%D0%B8%D1%82%D1%8C%D1%8F%20%D0%91%D1%85%D0%B0%D1%80%D0%B3%D0%B0%D0%B2%D0%B0.pdf&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=393300028&tknv=v2&size=M&crop=0",
+                                        "name": "M"
+                                    },
+                                    {
+                                        "url": "//1.downloader.disk.yandex.ru/preview/3c66eb9e47a0cc62434fc484b82059e984fdb2bbf35224dd75ba273630be4892/inf/65caMIirm5sLUN2Zm_3OFVvQ1vvkH0s_iaZT3XvzZ3wUQrgH_mLfuExYtz3pZVfAs39z9WwWhVoAoBGK0bsfWQ%3D%3D?uid=393300028&filename=%D0%93%D1%80%D0%BE%D0%BA%D0%B0%D0%B5%D0%BC%20%D0%B0%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%BC%D1%8B%202017%20%D0%90%D0%B4%D0%B8%D1%82%D1%8C%D1%8F%20%D0%91%D1%85%D0%B0%D1%80%D0%B3%D0%B0%D0%B2%D0%B0.pdf&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=393300028&tknv=v2&size=L&crop=0",
+                                        "name": "L"
+                                    },
+                                    {
+                                        "url": "//3.downloader.disk.yandex.ru/preview/3c66eb9e47a0cc62434fc484b82059e984fdb2bbf35224dd75ba273630be4892/inf/65caMIirm5sLUN2Zm_3OFVvQ1vvkH0s_iaZT3XvzZ3wUQrgH_mLfuExYtz3pZVfAs39z9WwWhVoAoBGK0bsfWQ%3D%3D?uid=393300028&filename=%D0%93%D1%80%D0%BE%D0%BA%D0%B0%D0%B5%D0%BC%20%D0%B0%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%BC%D1%8B%202017%20%D0%90%D0%B4%D0%B8%D1%82%D1%8C%D1%8F%20%D0%91%D1%85%D0%B0%D1%80%D0%B3%D0%B0%D0%B2%D0%B0.pdf&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=393300028&tknv=v2&size=XL&crop=0",
+                                        "name": "XL"
+                                    },
+                                    {
+                                        "url": "//1.downloader.disk.yandex.ru/preview/3c66eb9e47a0cc62434fc484b82059e984fdb2bbf35224dd75ba273630be4892/inf/65caMIirm5sLUN2Zm_3OFVvQ1vvkH0s_iaZT3XvzZ3wUQrgH_mLfuExYtz3pZVfAs39z9WwWhVoAoBGK0bsfWQ%3D%3D?uid=393300028&filename=%D0%93%D1%80%D0%BE%D0%BA%D0%B0%D0%B5%D0%BC%20%D0%B0%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%BC%D1%8B%202017%20%D0%90%D0%B4%D0%B8%D1%82%D1%8C%D1%8F%20%D0%91%D1%85%D0%B0%D1%80%D0%B3%D0%B0%D0%B2%D0%B0.pdf&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=393300028&tknv=v2&size=XXL&crop=0",
+                                        "name": "XXL"
+                                    },
+                                    {
+                                        "url": "//3.downloader.disk.yandex.ru/preview/3c66eb9e47a0cc62434fc484b82059e984fdb2bbf35224dd75ba273630be4892/inf/65caMIirm5sLUN2Zm_3OFVvQ1vvkH0s_iaZT3XvzZ3wUQrgH_mLfuExYtz3pZVfAs39z9WwWhVoAoBGK0bsfWQ%3D%3D?uid=393300028&filename=%D0%93%D1%80%D0%BE%D0%BA%D0%B0%D0%B5%D0%BC%20%D0%B0%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%BC%D1%8B%202017%20%D0%90%D0%B4%D0%B8%D1%82%D1%8C%D1%8F%20%D0%91%D1%85%D0%B0%D1%80%D0%B3%D0%B0%D0%B2%D0%B0.pdf&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=393300028&tknv=v2&size=XXXL&crop=0",
+                                        "name": "XXXL"
+                                    }
+                                ],
+                                "resource_id": "393300028:22a1892403d7feda47be97c38e3519cbe56f88bb839929b4d4d7255135ea93bb",
+                                "mediatype": "document",
+                                "file_id": "22a1892403d7feda47be97c38e3519cbe56f88bb839929b4d4d7255135ea93bb",
+                                "versioning_status": "versionable",
+                                "size": 72825117
+                            },
+                            "mtime": 1627295838,
+                            "path": "/disk/Книги/Грокаем алгоритмы 2017 Адитья Бхаргава.pdf",
+                            "utime": 1627295838,
+                            "type": "file",
+                            "id": "/disk/Книги/Грокаем алгоритмы 2017 Адитья Бхаргава.pdf",
+                            "name": "Грокаем алгоритмы 2017 Адитья Бхаргава.pdf"
+                        },
+                        {
+                            "ctime": 1568547813,
+                            "meta": {
+                                "mimetype": "application/pdf",
+                                "drweb": 1,
+                                "uid": "393300028",
+                                "sizes": [
+                                    {
+                                        "url": "//1.downloader.disk.yandex.ru/preview/26b4a425b6ed552766f1c4e9d4c800ae9e9d8122a587e20d92b2b8cc5092d67f/inf/Wpg4qKTUwHXfcOSu2ZJCzibVU8HuAN0SnbT0NFcUjtd4648hzmOiRiIZAlIXmrrXPmTxVJlIGQCPxK7ObvLP5A%3D%3D?uid=393300028&filename=%D0%A1%D0%BE%D0%B2%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5%20%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B.pdf&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=393300028&tknv=v2",
+                                        "name": "DEFAULT"
+                                    },
+                                    {
+                                        "url": "//1.downloader.disk.yandex.ru/preview/26b4a425b6ed552766f1c4e9d4c800ae9e9d8122a587e20d92b2b8cc5092d67f/inf/Wpg4qKTUwHXfcOSu2ZJCzibVU8HuAN0SnbT0NFcUjtd4648hzmOiRiIZAlIXmrrXPmTxVJlIGQCPxK7ObvLP5A%3D%3D?uid=393300028&filename=%D0%A1%D0%BE%D0%B2%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5%20%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B.pdf&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=393300028&tknv=v2&size=XXXS&crop=0",
+                                        "name": "XXXS"
+                                    },
+                                    {
+                                        "url": "//1.downloader.disk.yandex.ru/preview/26b4a425b6ed552766f1c4e9d4c800ae9e9d8122a587e20d92b2b8cc5092d67f/inf/Wpg4qKTUwHXfcOSu2ZJCzibVU8HuAN0SnbT0NFcUjtd4648hzmOiRiIZAlIXmrrXPmTxVJlIGQCPxK7ObvLP5A%3D%3D?uid=393300028&filename=%D0%A1%D0%BE%D0%B2%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5%20%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B.pdf&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=393300028&tknv=v2&size=XXS&crop=0",
+                                        "name": "XXS"
+                                    },
+                                    {
+                                        "url": "//1.downloader.disk.yandex.ru/preview/26b4a425b6ed552766f1c4e9d4c800ae9e9d8122a587e20d92b2b8cc5092d67f/inf/Wpg4qKTUwHXfcOSu2ZJCzibVU8HuAN0SnbT0NFcUjtd4648hzmOiRiIZAlIXmrrXPmTxVJlIGQCPxK7ObvLP5A%3D%3D?uid=393300028&filename=%D0%A1%D0%BE%D0%B2%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5%20%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B.pdf&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=393300028&tknv=v2&size=XS&crop=0",
+                                        "name": "XS"
+                                    },
+                                    {
+                                        "url": "//1.downloader.disk.yandex.ru/preview/26b4a425b6ed552766f1c4e9d4c800ae9e9d8122a587e20d92b2b8cc5092d67f/inf/Wpg4qKTUwHXfcOSu2ZJCzibVU8HuAN0SnbT0NFcUjtd4648hzmOiRiIZAlIXmrrXPmTxVJlIGQCPxK7ObvLP5A%3D%3D?uid=393300028&filename=%D0%A1%D0%BE%D0%B2%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5%20%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B.pdf&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=393300028&tknv=v2&size=S&crop=0",
+                                        "name": "S"
+                                    },
+                                    {
+                                        "url": "//3.downloader.disk.yandex.ru/preview/26b4a425b6ed552766f1c4e9d4c800ae9e9d8122a587e20d92b2b8cc5092d67f/inf/Wpg4qKTUwHXfcOSu2ZJCzibVU8HuAN0SnbT0NFcUjtd4648hzmOiRiIZAlIXmrrXPmTxVJlIGQCPxK7ObvLP5A%3D%3D?uid=393300028&filename=%D0%A1%D0%BE%D0%B2%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5%20%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B.pdf&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=393300028&tknv=v2&size=M&crop=0",
+                                        "name": "M"
+                                    },
+                                    {
+                                        "url": "//4.downloader.disk.yandex.ru/preview/26b4a425b6ed552766f1c4e9d4c800ae9e9d8122a587e20d92b2b8cc5092d67f/inf/Wpg4qKTUwHXfcOSu2ZJCzibVU8HuAN0SnbT0NFcUjtd4648hzmOiRiIZAlIXmrrXPmTxVJlIGQCPxK7ObvLP5A%3D%3D?uid=393300028&filename=%D0%A1%D0%BE%D0%B2%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5%20%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B.pdf&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=393300028&tknv=v2&size=L&crop=0",
+                                        "name": "L"
+                                    },
+                                    {
+                                        "url": "//4.downloader.disk.yandex.ru/preview/26b4a425b6ed552766f1c4e9d4c800ae9e9d8122a587e20d92b2b8cc5092d67f/inf/Wpg4qKTUwHXfcOSu2ZJCzibVU8HuAN0SnbT0NFcUjtd4648hzmOiRiIZAlIXmrrXPmTxVJlIGQCPxK7ObvLP5A%3D%3D?uid=393300028&filename=%D0%A1%D0%BE%D0%B2%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5%20%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B.pdf&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=393300028&tknv=v2&size=XL&crop=0",
+                                        "name": "XL"
+                                    },
+                                    {
+                                        "url": "//4.downloader.disk.yandex.ru/preview/26b4a425b6ed552766f1c4e9d4c800ae9e9d8122a587e20d92b2b8cc5092d67f/inf/Wpg4qKTUwHXfcOSu2ZJCzibVU8HuAN0SnbT0NFcUjtd4648hzmOiRiIZAlIXmrrXPmTxVJlIGQCPxK7ObvLP5A%3D%3D?uid=393300028&filename=%D0%A1%D0%BE%D0%B2%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5%20%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B.pdf&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=393300028&tknv=v2&size=XXL&crop=0",
+                                        "name": "XXL"
+                                    },
+                                    {
+                                        "url": "//4.downloader.disk.yandex.ru/preview/26b4a425b6ed552766f1c4e9d4c800ae9e9d8122a587e20d92b2b8cc5092d67f/inf/Wpg4qKTUwHXfcOSu2ZJCzibVU8HuAN0SnbT0NFcUjtd4648hzmOiRiIZAlIXmrrXPmTxVJlIGQCPxK7ObvLP5A%3D%3D?uid=393300028&filename=%D0%A1%D0%BE%D0%B2%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5%20%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B.pdf&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=393300028&tknv=v2&size=XXXL&crop=0",
+                                        "name": "XXXL"
+                                    }
+                                ],
+                                "resource_id": "393300028:995defd5c9b35aae214fdb52ae720cdde8a1f11725ed0ca7e99a3b489cb612c2",
+                                "mediatype": "document",
+                                "file_id": "995defd5c9b35aae214fdb52ae720cdde8a1f11725ed0ca7e99a3b489cb612c2",
+                                "versioning_status": "versionable",
+                                "size": 14603203
+                            },
+                            "mtime": 1568547813,
+                            "path": "/disk/Книги/Современные операционные системы.pdf",
+                            "utime": 1568547813,
+                            "type": "file",
+                            "id": "/disk/Книги/Современные операционные системы.pdf",
+                            "name": "Современные операционные системы.pdf"
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+]
