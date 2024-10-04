@@ -3,22 +3,25 @@
 namespace App\Http\Controllers\File;
 
 use App\Http\Controllers\Controller;
-use App\Http\Resources\DirectoryResource;
-use App\Http\Resources\FileResource;
-use App\Models\Directory;
-use Illuminate\Http\Resources\Json\AnonymousResourceCollection;
+use App\UseCases\FileService;
+use Illuminate\Http\JsonResponse;
+use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Symfony\Component\HttpFoundation\Response;
 
 class IndexController extends Controller
 {
-    public function __invoke(?Directory $directory = null): AnonymousResourceCollection
-    {
-        if (!$directory)
-            $directory = Directory::where('name', Auth::user()->email)->first();
+    public function __construct(private readonly FileService $service) {}
 
-        return FileResource::collection([
-            'directories' => DirectoryResource::collection($directory->children),
-            'files' => $directory->files
-        ]);
+    public function __invoke(Request $request): JsonResponse
+    {
+        try {
+            return new JsonResponse([
+                'data' => $this->service->getFiles($request->string('path', '/')->trim())
+            ]);
+        }
+        catch (\Exception $e) {
+            return new JsonResponse(['error' => $e->getMessage()], Response::HTTP_INTERNAL_SERVER_ERROR);
+        }
     }
 }

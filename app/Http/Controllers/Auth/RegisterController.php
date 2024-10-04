@@ -15,13 +15,24 @@ class RegisterController extends Controller
 
     public function __invoke(Request $request): JsonResponse
     {
-        $credentials = $request->all(['email', 'password']);
+        $credentials = $request->all(['name', 'email', 'password']);
+        
+        try {
+            if (User::firstWhere('email', $credentials['email']))
+                throw new \Exception('Пользователь существует');
 
-        if (User::firstWhere('email', $credentials['email']))
-            return new JsonResponse(['error' => 'Пользователь существует'], Response::HTTP_INTERNAL_SERVER_ERROR);
-
-        User::create(['email' => $credentials['email'], 'password' => $credentials['password']]);
-        $this->service->create($credentials['email']);
+            $user = new User([
+                'name' => $credentials['name'],
+                'email' => $credentials['email'],
+                'password' => $credentials['password']
+            ]);
+            
+            $this->service->create($credentials['email']);
+            $user->save();
+        }
+        catch (\Exception $e) {
+            return new JsonResponse(['error' => $e->getMessage()], Response::HTTP_INTERNAL_SERVER_ERROR);
+        }
 
         return new JsonResponse();
     }

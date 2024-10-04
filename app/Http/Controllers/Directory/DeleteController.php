@@ -14,7 +14,7 @@ class DeleteController extends Controller
     public function __invoke(Request $request): JsonResponse
     {
         try {
-            $this->service->delete($request->get('directory_id'));
+            $this->service->delete($request->get('path'));
         }
         catch (\Exception $e) {
             return new JsonResponse(['error' => $e->getMessage()], Response::HTTP_INTERNAL_SERVER_ERROR);

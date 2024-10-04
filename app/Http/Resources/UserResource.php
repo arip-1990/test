@@ -2,11 +2,11 @@
 
 namespace App\Http\Resources;
 
-use App\Models\Directory;
+use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Http\Resources\Json\JsonResource;
 
-class DirectoryResource extends JsonResource
+class UserResource extends JsonResource
 {
     /**
      * Transform the resource into an array.
@@ -15,13 +15,12 @@ class DirectoryResource extends JsonResource
      */
     public function toArray(Request $request): array
     {
-        /** @var Directory $this */
+        /** @var User $this */
         return [
             'id' => $this->id,
             'name' => $this->name,
-            'path' => $this->getPath(),
-            'createdAt' => $this->created_at,
-            'updatedAt' => $this->updated_at
+            'email' => $this->email,
+            'path' => $this->getPath()
         ];
     }
 }

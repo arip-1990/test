@@ -29,7 +29,8 @@ docker-build:
 api-clear:
 	docker run --rm -v ${PWD}:/app -w /app alpine sh -c 'rm -rf storage/framework/cache/data/* storage/framework/sessions/* storage/framework/testing/* storage/framework/views/* storage/logs/*'
 
-api-init: api-permissions api-composer-install api-wait-db api-migrations
+api-init: api-permissions api-composer-install \
+	api-copy-env api-gen-key api-wait-db api-migrations
 
 api-permissions:
 	docker run --rm -v ${PWD}:/app -w /app alpine chmod 777 -R storage bootstrap/cache
@@ -45,6 +46,12 @@ api-wait-db:
 
 api-migrations:
 	docker compose run --rm api-php-cli php artisan migrate --force
+
+api-copy-env:
+	docker compose run --rm api-php-cli php -r "file_exists('.env') || copy('.env.example', '.env');"
+
+api-gen-key:
+	docker compose run --rm api-php-cli php artisan key:generate
 
 api-backup:
 	docker compose run --rm api-postgres-backup

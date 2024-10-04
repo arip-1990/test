@@ -16,7 +16,7 @@ class CreateController extends Controller
     public function __invoke(Request $request): JsonResponse
     {
         try {
-            $this->service->create($request->get('name'), Directory::find($request->get('directory_id')));
+            $this->service->create($request->get('path'));
         }
         catch (\Exception $e) {
             return new JsonResponse(['error' => $e->getMessage()], Response::HTTP_INTERNAL_SERVER_ERROR);

@@ -55,4 +55,9 @@ class User extends Authenticatable
             'password' => 'hashed',
         ];
     }
+
+    public function getPath(): string
+    {
+        return '/' . $this->email;
+    }
 }

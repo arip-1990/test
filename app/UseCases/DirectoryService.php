@@ -7,37 +7,21 @@ use Illuminate\Support\Facades\Storage;
 
 class DirectoryService
 {
-    public function create(string $name, ?Directory $parentDirectory = null): Directory
+    public function create(string $path): void
     {
-        $path = $parentDirectory ? ($parentDirectory->getPath() . $name) : $name;
         if (!Storage::makeDirectory($path))
-            throw new \DomainException('Не удалось создать директорию');
-
-        return Directory::create(['name' => $name]);
+            throw new \DomainException('Не удалось создать директорию ' . $path);
     }
 
-    public function rename(int $directoryId, string $newName): Directory
+    public function rename(int $path, string $newPath): void
     {
-        $directory = Directory::find($directoryId);
-        $oldPath = $directory->getPath();
-        $newPath = explode('/', $oldPath);
-        array_pop($newPath);
-        $newPath = implode('/', $newPath) . '/' . $newName;
-
-        if (!Storage::directoryExists($oldPath) or !Storage::move($oldPath, $newPath))
+        if (!Storage::directoryExists($path) or !Storage::move($path, $newPath))
             throw new \DomainException('Не удалось переименовать директорию');
-
-        $directory->update(['name' => $newName]);
-
-        return $directory;
     }
 
-    public function delete(int $directoryId): void
+    public function delete(int $path): void
     {
-        $directory = Directory::find($directoryId);
-        if (!Storage::deleteDirectory($directory->getPath()))
+        if (!Storage::deleteDirectory($path))
             throw new \DomainException('Не удалось удалить директорию');
-
-        $directory->delete();
     }
 }

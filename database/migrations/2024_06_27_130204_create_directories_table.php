@@ -11,14 +11,14 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('directories', function (Blueprint $table) {
-            $table->id();
-            $table->string('name');
-            $table->timestamps();
+        // Schema::create('directories', function (Blueprint $table) {
+        //     $table->id();
+        //     $table->string('name');
+        //     $table->timestamps();
 
-            $table->foreignId('parent_id')->nullable()->constrained('directories')->cascadeOnUpdate()->cascadeOnDelete();
-            $table->unique(['name', 'parent_id']);
-        });
+        //     $table->foreignId('parent_id')->nullable()->constrained('directories')->cascadeOnUpdate()->cascadeOnDelete();
+        //     $table->unique(['name', 'parent_id']);
+        // });
     }
 
     /**
@@ -26,6 +26,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('directories');
+        // Schema::dropIfExists('directories');
     }
 };

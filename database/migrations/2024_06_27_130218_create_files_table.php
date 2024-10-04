@@ -11,15 +11,15 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('files', function (Blueprint $table) {
-            $table->id();
-            $table->string('name');
-            $table->string('type', 8);
-            $table->timestamps();
+        // Schema::create('files', function (Blueprint $table) {
+        //     $table->id();
+        //     $table->string('name');
+        //     $table->string('type', 8);
+        //     $table->timestamps();
 
-            $table->foreignId('directory_id')->nullable()->constrained()->cascadeOnUpdate()->cascadeOnDelete();
-            $table->unique(['name', 'type', 'directory_id']);
-        });
+        //     $table->foreignId('directory_id')->nullable()->constrained()->cascadeOnUpdate()->cascadeOnDelete();
+        //     $table->unique(['name', 'type', 'directory_id']);
+        // });
     }
 
     /**
@@ -27,6 +27,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('files');
+        // Schema::dropIfExists('files');
     }
 };

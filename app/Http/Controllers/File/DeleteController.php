@@ -13,7 +13,12 @@ class DeleteController extends Controller
 
     public function __invoke(Request $request): JsonResponse
     {
-        $this->service->delete($request->get('files', []));
+        try {
+            $this->service->delete($request->get('files', []));
+        }
+        catch (\Exception $e) {
+            return new JsonResponse(['error' => $e->getMessage()], Response::HTTP_INTERNAL_SERVER_ERROR);
+        }
 
         return new JsonResponse();
     }

@@ -15,7 +15,7 @@ class RenameController extends Controller
     public function __invoke(Request $request): JsonResponse
     {
         try {
-            $this->service->rename($request->get('file_id'), $request->get('name'));
+            $this->service->rename($request->get('file'), $request->get('newFile'));
         }
         catch (\Exception $e) {
             return new JsonResponse(['error' => $e->getMessage()], Response::HTTP_INTERNAL_SERVER_ERROR);
