@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\OrderController;
+use App\Http\Controllers\ProductController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,6 +15,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::redirect('/', '/products');
+
+Route::resource('products', ProductController::class);
+Route::prefix('orders')->group(function () {
+    Route::resource('/', OrderController::class)->except(['edit', 'update', 'destroy']);
+    Route::post('/{order}/complete', [OrderController::class, 'complete'])->name('orders.complete');
 });

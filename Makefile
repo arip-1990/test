@@ -28,6 +28,8 @@ composer-update:
 wait-db:
 	docker compose run --rm php-cli wait-for-it api-db:3306 -t 30
 
-migrations:
+migrate:
 	docker compose run --rm php-cli php artisan migrate --force
 
+cache-clear:
+	docker run --rm -v ${PWD}/api:/app -w /app alpine sh -c 'rm -rf storage/framework/cache/data/* storage/framework/sessions/* storage/framework/testing/* storage/framework/views/* storage/logs/*'
